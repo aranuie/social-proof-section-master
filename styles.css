@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: left top,
+        right bottom;
+    text-align: center;
+}
+
+.container {
+    max-width: 345px;
+    margin: 5% auto 0 auto;
+}
+
+h1 {
+    padding: 15% 10% 0 10%;
+    color: hsl(300, 43%, 22%);
+    line-height: 30px;
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 23px;
+    padding: 0 5% 0 5%;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.revbox {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 5% 0 2% 0;
+    margin-bottom: 5%;
+}
+
+h2 {
+    color: hsl(300, 43%, 22%);
+    font-size: 0.9em;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.comments h3,
+.customers p {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: hsl(333, 80%, 67%);
+    font-size: 0.9em;
+    margin: 1% 0 0 0;
+    padding: 0;
+    float: left;
+}
+
+.comments h3 {
+    padding-top: 1%;
+    max-width: 100%;
+}
+
+.customers {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 10%;
+}
+
+.customers img {
+    border-radius: 40px;
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-right: 10%;
+}
+
+.customers p {
+    clear: both;
+    margin-top: 20%;
+}
+
+.attribution {
+    margin-top: 5%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(333, 80%, 67%);
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 5% auto 0 auto;
+    }
+
+    .desktop {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 4em;
+        padding: 0;
+        margin: 0;
+        line-height: 60px;
+    }
+
+    .hero {
+        width: 600px;
+    }
+
+    .hero p {
+        text-align: left;
+        padding: 0;
+        margin: 5% 0 0 0;
+        font-size: 1.2em;
+        line-height: 30px;
+    }
+
+    .reviews {
+        text-align: center;
+        width: 600px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .revbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 2% 0 2% 0;
+        margin-bottom: 4%;
+        max-width: 100%;
+    }
+
+    .stars {
+        margin-top: 2%;
+    }
+
+    #one {
+        margin-right: 20%;
+    }
+
+    #two {
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    #three {
+        margin-left: 25%;
+    }
+
+    .comments {
+        flex-direction: row;
+        justify-content: stretch;
+        width: 100%;
+        margin: 5% 0 0 0;
+    }
+
+    .comments h3,
+    .customers p {
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+    }
+
+    h4 {
+        font-size: 1em;
+        margin: 1% 0 0 0;
+        padding: 0;
+        float: left;
+    }
+
+    .comments h3 {
+        padding-top: 2%;
+    }
+
+    .customers {
+        margin-right: 3%;
+        padding: 3%;
+        height: 250px;
+        margin-bottom: 0;
+    }
+
+    .customers img {
+        max-width: 15%;
+        height: auto;
+    }
+
+    .customers p {
+        margin-top: 15%;
+        line-height: 30px;
+    }
+
+    #irene {
+        margin-top: 2%;
+    }
+
+    #anne {
+        margin-top: 4%;
+    }
+
+    .attribution {
+        margin-top: 1%;
+    }
+}
