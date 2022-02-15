@@ -71,7 +71,8 @@ h2 {
 h4 {
     color: hsl(333, 80%, 67%);
     font-size: 0.9em;
-    margin: 1% 0 0 0;
+    font-weight: 400;
+    margin: 5% 0 0 0;
     padding: 0;
     float: left;
 }
