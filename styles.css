@@ -118,8 +118,8 @@ h4 {
     }
 
     .container {
-        max-width: 90%;
-        margin: 5% auto 0 auto;
+        max-width: 80%;
+        margin: 8% auto 0 auto;
     }
 
     .desktop {
@@ -208,7 +208,7 @@ h4 {
     .customers {
         margin-right: 3%;
         padding: 3%;
-        height: 250px;
+        height: 200px;
         margin-bottom: 0;
     }
 
