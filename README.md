@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/social-proof-section-challenge-using-css-flexbox-m6DANxZbd)
 - Live Site URL: [Live Site URL](https://aranuie.github.io/social-proof-section-master/)
 
 ## My process
